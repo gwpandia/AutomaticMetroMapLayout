@@ -1,0 +1,17 @@
+NODE:label=R1:x=84.4698:y=33.755
+NODE:label=R2:x=74.4698:y=33.755
+NODE:label=R3B3:x=64.4698:y=33.755
+NODE:label=R4:x=54.4698:y=33.755
+NODE:label=R5:x=44.4698:y=33.755
+NODE:label=B1:x=44.4698:y=-13.755
+NODE:label=B2:x=54.4698:y=23.755
+NODE:label=B4:x=74.4698:y=43.755
+NODE:label=B5:x=84.4698:y=53.755
+EDGE:label=Red: color=255 ,0 ,0: adjlist=R1 , R2
+EDGE:label=Red: color=255 ,0 ,0: adjlist=R2 , R3B3
+EDGE:label=Red: color=255 ,0 ,0: adjlist=R3B3 , R4
+EDGE:label=Red: color=255 ,0 ,0: adjlist=R4 , R5
+EDGE:label=Blue: color=0 ,0 ,255: adjlist=B1 , B2
+EDGE:label=Blue: color=0 ,0 ,255: adjlist=B2 , R3B3
+EDGE:label=Blue: color=0 ,0 ,255: adjlist=R3B3 , B4
+EDGE:label=Blue: color=0 ,0 ,255: adjlist=B4 , B5
